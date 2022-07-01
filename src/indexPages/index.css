@@ -174,12 +174,9 @@ footer {
   border: #636e72 5px solid;
 }
 
-main {
+main .ask {
   display: flex;
   margin-top: 100px;
-}
-
-main .ask {
   margin-left: 270px;
 }
 
@@ -257,6 +254,18 @@ main .ask {
 
 #login {
   --button-color: #d63031;
+}
+
+#goTienda {
+  --button-color: #00b894;
+  /* centrar abajo del todo */
+  position: absolute;
+  bottom: 0;
+  /* centrar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 /* responsive */
 
